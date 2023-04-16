@@ -10,7 +10,7 @@ will be designed to extract key information from the transcript, including impor
 marketers who want to identify relevant keywords and phrases from competitor videos or customer feedback. Additionally, it will be helpful for people with hearing difficulties who prefer to read transcripts rather thanwatching videos. Overall, the YouTube transcript summarizer tool will simplify the process of consuming content fromYouTubevideos, allowing users to save time and improve their learning experience.
 
 
-#IDEA IMPLEMENTATIONPROCESS
+# IDEA IMPLEMENTATIONPROCESS
 (i) Creating a UI using HTML ,CSS and JS (processing and validation of URL of YT video and fetching of transcript using YT API )
 (ii) Preprocessing of transcript using python libraries like NLTK and NLP techniques like tokenization, stemming, and lemmatization to further process the transcript text.
 (iii) Use of summarization algorithms to generate a summary of the transcript.
