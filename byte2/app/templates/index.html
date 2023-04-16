@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Transcript Summarizer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<style type="text/css">
+  #btn:hover {
+  background-color: black;
+  color: whitesmoke;
+}
+
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <strong>YouTube Transcript Summarizer</strong>
+  </a>
+</nav>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1>Get Your Summary</h1>
+    <p>Enhancing the accessibility and effectiveness of video content, enabling users to gain insights quickly and easily</p>
+  </div>
+</div>
+
+<div class="container">
+<form id="input-form" action="/summarize" method="post">
+      <label for="video-url">Enter the URL of the YouTube video:</label>
+      <input type="text" id="video-url" name="video-url">
+      <button type="submit" id="btn" >Summarize</button>
+    </form>
+
+    <div id="summary-container">
+      <!-- The summary will be displayed here -->
+      {{content}}
+    </div>
+ </div>   
+
+
+
+<!-- Remove the container if you want to extend the Footer to full width. -->
+
+  <footer class="bg-secondary text-center text-white" style="position: fixed; bottom: 0;width: 100%;">
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <section>CODE CRUSADERS</section>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+<!-- End of .container -->
+</body>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang=en>
+  <head>
+    <meta charset="utf-8">
+    <title>YouTube Transcript Summarizer</title>
+    <style>
+      /* Add styles here */
+    </style>
+  </head>
+  <body>
+    <h1>YouTube Transcript Summarizer</h1>
+
+    <form id="input-form" action="/summarize" method="post">
+      <label for="video-url">Enter the URL of the YouTube video:</label>
+      <input type="text" id="video-url" name="video-url">
+      <button type="submit" id="btn" >Summarize</button>
+    </form>
+
+    <div id="summary-container">
+             {{content}}
+    </div>
+    </body>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  
+</html> -->
