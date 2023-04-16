@@ -1,6 +1,6 @@
 
 DEMO VIDEO LINK
-https://drive.google.com/file/d/1i8LJOd0qwCLl1rtzB-fMoelNFh5izw8w/view?usp=sharing
+[https://drive.google.com/file/d/1i8LJOd0qwCLl1rtzB-fMoelNFh5izw8w/view?usp=sharing](https://drive.google.com/file/d/1vTnj0GFPKoZvDoK5Ui28xaF7dV1FYDO9/view?usp=sharing)
 
 # Problem Statement
 With the ever-increasing amount of content being uploaded to YouTube, it has becomeincreasingly challenging for viewers, specially Students, to consume and comprehendthevastamount of information presented in lengthy video transcripts. The absence of aquickandefficient way to extract relevant information from these transcripts hinders theabilityofviewers to gain valuable insights from the content. As a result, there is a growingneedforaYouTube transcript summarizer tool that can extract key information and present it inaconcise,easy-to-understand format, enabling users to consume content more efficiently andeffectively.Therefore, the problem statement is how to develop a reliable YouTube transcript summarizertool that can extract and present essential information from lengthy video transcriptsinaconcise and user-friendly format. 
