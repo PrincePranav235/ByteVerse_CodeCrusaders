@@ -1,5 +1,6 @@
 
-
+DEMO VIDEO LINK
+https://drive.google.com/file/d/1i8LJOd0qwCLl1rtzB-fMoelNFh5izw8w/view?usp=sharing
 
 # Problem Statement
 With the ever-increasing amount of content being uploaded to YouTube, it has becomeincreasingly challenging for viewers, specially Students, to consume and comprehendthevastamount of information presented in lengthy video transcripts. The absence of aquickandefficient way to extract relevant information from these transcripts hinders theabilityofviewers to gain valuable insights from the content. As a result, there is a growingneedforaYouTube transcript summarizer tool that can extract key information and present it inaconcise,easy-to-understand format, enabling users to consume content more efficiently andeffectively.Therefore, the problem statement is how to develop a reliable YouTube transcript summarizertool that can extract and present essential information from lengthy video transcriptsinaconcise and user-friendly format. 
@@ -18,7 +19,4 @@ marketers who want to identify relevant keywords and phrases from competitor vid
 (iv) Creating a Flask app that takes in the video ID and returns the summary of the transcript and deployment of the APP. Use of summarization algorithms to generate a summary of the transcript.
 (v) The youtube video link used in project : https://www.youtube.com/watch?v=ZSt9tm3RoUU 
 
-
-#How to run the project
-In the base folder open CMD and type py main.py and press enter
-Now run the app on local host
+![Screenshot (52)](https://user-images.githubusercontent.com/90023409/232319647-4f58e448-dbf8-4a05-88a1-654668ed78c1.png)
