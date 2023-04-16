@@ -1,4 +1,5 @@
-# CodeCrusaders
+# Demo Video For Project
+https://www.youtube.com/watch?v=ZSt9tm3RoUU
 
 # PROBLEM STATEMENT
 With the ever-increasing amount of content being uploaded to YouTube, it has becomeincreasingly challenging for viewers, specially Students, to consume and comprehendthevastamount of information presented in lengthy video transcripts. The absence of aquickandefficient way to extract relevant information from these transcripts hinders theabilityofviewers to gain valuable insights from the content. As a result, there is a growingneedforaYouTube transcript summarizer tool that can extract key information and present it inaconcise,easy-to-understand format, enabling users to consume content more efficiently andeffectively.Therefore, the problem statement is how to develop a reliable YouTube transcript summarizertool that can extract and present essential information from lengthy video transcriptsinaconcise and user-friendly format. 
