@@ -17,3 +17,8 @@ marketers who want to identify relevant keywords and phrases from competitor vid
 (iii) Use of summarization algorithms to generate a summary of the transcript.
 (iv) Creating a Flask app that takes in the video ID and returns the summary of the transcript and deployment of the APP. Use of summarization algorithms to generate a summary of the transcript.
 (v) The youtube video link used in project : https://www.youtube.com/watch?v=ZSt9tm3RoUU 
+
+
+#How to run the project
+In the base folder open CMD and type py main.py and press enter
+Now run the app on local host
