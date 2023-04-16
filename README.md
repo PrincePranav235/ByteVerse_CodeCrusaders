@@ -11,7 +11,7 @@ marketers who want to identify relevant keywords and phrases from competitor vid
 
 
 # IDEA IMPLEMENTATIONPROCESS
-(i) Creating a UI using HTML ,CSS and JS (processing and validation of URL of YT video and fetching of transcript using YT API )
+(i) Creating a UI using HTML ,CSS and JS (processing and validation of URL of YT video and fetching of transcript using YT API ).
 (ii) Preprocessing of transcript using python libraries like NLTK and NLP techniques like tokenization, stemming, and lemmatization to further process the transcript text.
 (iii) Use of summarization algorithms to generate a summary of the transcript.
 (iv) Creating a Flask app that takes in the video ID and returns the summary of the transcript and deployment of the APP. Use of summarization algorithms to generate a summary of the transcript.
